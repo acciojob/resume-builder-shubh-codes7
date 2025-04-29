@@ -1,1 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
+body{
+    background-color: rgb(30, 29, 29);
+    color: white;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(36, 35, 35);
+}
+
+h2{
+    text-align: center;
+    margin: 20px auto;
+}
+
+label{
+    display: block;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    
+    
+}
+
+input{
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+input::placeholder{
+    font-size: 18px;
+}
+
+.navButtons{
+    display: flex;
+    justify-content: center;
+    /* margin: 20px auto; */
+    gap: 20px;
+}
+
+.navButtons button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(56, 239, 114);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[disabled]{
+    background-color: rgb(85, 85, 85);
+    cursor: not-allowed;
+    color: grey;
+}
+
+resume{
+    padding: 20px;
+}
+
+card{
+    background-color: rgb(73, 71, 71);
+    padding: 20px;
+    margin: 20px 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: start;
+    gap: 10px;    
+}
